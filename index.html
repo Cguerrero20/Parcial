@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="es">
+    <hedad>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>Formulario</title>   
+    </hedad>
 
-<head>
+    <body>
+        <form action="/submit" method="post">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-    <meta charset="UTF-8">
+            <label for="email">Corre:</label>
+            <input type="email" id="email" name="email" required>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+            
+            <input type="submit" value="enviar">
+        </form>
 
-<tittle>Formulario de registros</tittle>
-
-</head>
-
-<body>
-   <h1>
-    Registro para vacunacion covid 19
-   </h1>
-   <form action="" method="GET">
-      <label for="nombre">Nombre:</label>
-      
-
-
-   </form>
-
-</body>
-
-
-
+    </body>
 </html>
